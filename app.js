@@ -8,7 +8,7 @@ app.get("/", function(req, res) {
 
 app.get("/user", function(req, res) {
   res.send({
-    nome: "Diogo"
+    nome: "Diogo Prado"
   })
 });
 
