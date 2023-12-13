@@ -4,7 +4,7 @@ const res = require("express/lib/response");
 const app = express();
 
 app.get("/", function(req, res) {
-  res.send("Hello World")
+  res.send("Olá Mundo!")
 });
 
 app.get("/user/:nome/:sobrenome", function(req, res) {
