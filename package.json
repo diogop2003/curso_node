@@ -2,6 +2,7 @@
   "name": "curso_node",
   "version": "1.0.0",
   "description": "curso de node",
+  "type": "module",
   "main": "app.js",
   "scripts": {
     "dev": "npx nodemon app.js",
